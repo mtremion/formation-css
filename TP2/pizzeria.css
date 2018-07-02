@@ -1,0 +1,59 @@
+body
+{
+    background-color: #EFECCA
+}
+
+h1
+{
+    color: #C03000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2
+{
+    color: #4BB5C1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li
+{
+    display : inline;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    border: solid;
+    border-color: #660000;
+    background-color: #C03000;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul li a:hover
+{
+    background-color: #009900;
+}
+
+
+nav ul li a:focus
+{
+    background-color: #009900;
+}
+
+nav ul li a:active
+{
+    background-color: #009900;
+}
+
+footer a
+{
+    color: #0000FF;
+    text-decoration: none;
+}
