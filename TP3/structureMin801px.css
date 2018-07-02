@@ -1,0 +1,51 @@
+@media screen and (min-width:801px)
+{
+
+    .container 
+    {
+        font-family: 'Helvetica', 'Arial', sans-serif;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    * 
+    {
+        padding: 10px;
+        text-align: center;
+    }
+
+    header 
+    {
+        order:1;
+        width: 100%;
+        background-color: tomato;
+    }
+
+    .left-aside 
+    {
+        order:2;
+        flex: 1;
+        background-color: gold;
+    }
+
+    .right-aside 
+    {
+        order:4;
+        flex: 1;
+        background-color: hotpink;
+    }
+
+    main 
+    {
+        order:3;
+        flex: 3;
+        background-color: deepskyblue;
+    }
+
+    footer 
+    {
+        order:5;
+        width:100%;
+        background-color: lightgreen;
+    }
+}
